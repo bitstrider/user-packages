@@ -1,0 +1,29 @@
+{
+  "name": "user-packages",
+  "version": "0.1.0",
+  "description": "pulls simple metadata for all npm packages by user",
+  "main": "lib/user-packages.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitstrider/user-packages.git"
+  },
+  "keywords": [
+    "npm",
+    "packages",
+    "user",
+    "owner",
+    "organization"
+  ],
+  "author": "Jason Yung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitstrider/user-packages/issues"
+  },
+  "homepage": "https://github.com/bitstrider/user-packages#readme",
+  "dependencies": {
+    "axios": "^0.16.2"
+  }
+}
